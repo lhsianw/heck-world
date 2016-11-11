@@ -1,0 +1,17 @@
+Git 使用指令
+
+Install (將 git 套件安裝到 local 本機) - Mac version :
+	下載 Download : 
+        1. 從  www.github.com 上搜尋最新  Mac 版或從   https://git-scm.com/downloads 下載  git 軟體.
+        2. 可以參考  「Setting Up Git」   https://help.github.com/articles/set-up-git/   安裝 step-by-steps 說明.
+
+
+從 Github 網站自己的帳號，下載已經存在的專案：
+    - 用 Clone 指令 +  https:// +   git 帳號路徑 
+    -  路徑：可以 login 到 GitHub,  在個人專案網頁上找到，確認。
+    - 連結網站必須使用  https:// 而非  git:// （local)
+ 
+	$git clone https://github.com/lhsianw/hello-word.git  
+
+	下載後目錄也可改名，在上面指令後面加上新的 local 目錄名稱
+	$git clone https://github.com/lhsianw/hello-word.git    hello-people
